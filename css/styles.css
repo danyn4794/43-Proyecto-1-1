@@ -528,3 +528,24 @@ footer p:first-child{
     color: #a97c50;
     font-weight: bold;
 }
+
+footer img.rrss {
+    height: 48px;
+}
+
+footer a {
+    font-size: 0.8rem;
+    color: #a97c50;
+}
+
+footer a:hover {
+    font-size: 0.8rem;
+    color: #6e5133;
+    transition: 400ms ease-in-out;
+}
+
+footer.copyright {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 0.8rem;
+    text-align: center;
+}
