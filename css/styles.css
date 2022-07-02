@@ -481,3 +481,10 @@ input[type="checkbox"] + label::before {
 input[type="checkbox"]:checked + label::before {
     content: url('../img/check-square.svg');
 }
+
+/* footer */
+
+footer {
+    background-color: #424242;
+    
+}
