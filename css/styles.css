@@ -39,6 +39,10 @@ img {
     max-width: 100%;
 }
 
+p {
+    margin-bottom: 0.8rem;
+}
+
 /* Hero */
 
 .hero {
@@ -358,6 +362,34 @@ header.transparente nav a:hover {
     align-items: center;
 }
 
+/* Espaciados y margenes */
+
+.m-t {
+    margin-top: 1rem;
+}
+.m-b {
+    margin-bottom: 1rem;
+}
+.m-l {
+    margin-left: 1rem;
+}
+.m-r {
+    margin-right: 1rem;
+}
+
+.m-t-small {
+    margin-top: 0.5rem;
+}
+.m-b-small {
+    margin-bottom: 0.5rem;
+}
+.m-l-small {
+    margin-left: 0.5rem;
+}
+.m-r-small {
+    margin-right: 0.5rem;
+}
+
 /* parallax */
 .fila.parallax {
     background-image: url(../img/property5.jpg);
@@ -486,5 +518,13 @@ input[type="checkbox"]:checked + label::before {
 
 footer {
     background-color: #424242;
-    
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.80);
+}
+
+footer p:first-child{
+    color: #a97c50;
+    font-weight: bold;
 }
